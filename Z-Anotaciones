@@ -1,0 +1,18 @@
+Paleta de color utilizada:
+
+Header --
+Background: #566573
+Color: white
+nav: white
+
+Main --
+Background: #E0E1DD
+Box: #f2f4f4
+BorderBox: #808b96
+
+Footer --
+Background: #566573
+Color: white
+
+Font --
+Color: white

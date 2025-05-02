@@ -9,11 +9,18 @@
 p{
     margin: 5px;
     padding: 5px;
+    font-size: 20px;
 }
 
 h2{
     margin: 5px;
     padding: 5px;
+    font-size: 28px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 #header-general{
@@ -32,14 +39,14 @@ h2{
 }
 
 #nav a{
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
     padding: 8px 12px;
 }
 
 #footer-general{
     background-color: #566573;
-    color: rgb(255, 255, 255);
+    color: white;
     padding: 20px;
     display: flex;
     text-align: center;
@@ -50,7 +57,7 @@ h2{
 /* INDEX */
 
 #main-index{
-    background-color: #eaf2f8;
+    background-color: #E0E1DD;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -62,18 +69,25 @@ h2{
     display: flex;
     flex-direction: column;
     text-align: center;
-    
 }
 
 /* INFORMACION */
 
 #main-informacion{
-    background-color: #eaf2f8;
+    background-color: #E0E1DD;
+    padding: 5px;
+}
+
+#box-informacion{
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
     padding: 5px;
+    margin: 5px;
+    background-color: #f2f4f4;
+    border: 2px solid #808b96; 
+    border-radius: 5px; 
 }
 
 #section-informacion{
@@ -83,17 +97,18 @@ h2{
     padding: 5px;
 }
 
+
 /* ELENCO */
 
 #main-elenco{
-    background-color: #eaf2f8;
+    background-color: #E0E1DD;
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-#section-elenco{
+#box-elenco{
     padding: 5px;
     margin: 5px;
     max-width: 280px;
@@ -102,25 +117,89 @@ h2{
     align-items: center;
     background-color: #f2f4f4;
     border: 2px solid #808b96; 
-    border-radius: 10px; 
+    border-radius: 5px; 
 }
 
 /* TEMPORADAS */
 
 #main-temporadas{
-    background-color: #eaf2f8;
+    background-color: #E0E1DD;
     padding: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
-#section-temporadas{
+#box-temporadas{
     padding: 5px;
     margin: 5px;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    background-color: #f2f4f4;
+    border: 2px solid #808b96; 
+    border-radius: 5px; 
+}
+
+#box-temporadas img{
+    max-width: 120px;
+    max-height: 140px;
+}
+
+/* CURIOSIDADES */
+
+#main-curiosidades{
+    background-color: #E0E1DD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+#section-curiosidades{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#box-curiosidades{
+    max-width: 380px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f2f4f4;
+    border: 2px solid #808b96; 
+    border-radius: 5px; 
+}
+
+/* CONTACTO */
+
+#section-contacto{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#section-contacto-informacion{
+    padding: 5px;
+    margin: 5px;
+    max-width: 480px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f2f4f4;
+    border: 2px solid #808b96; 
+    border-radius: 5px; 
+}
+
+#section-formulario{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: #f2f4f4;
     border: 2px solid #808b96; 
     border-radius: 5px; 
