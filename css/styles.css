@@ -54,6 +54,7 @@ a{
     justify-content: space-around;
 }
 
+
 /* INDEX */
 
 #main-index{
@@ -131,13 +132,38 @@ a{
 #box-elenco{
     padding: 5px;
     margin: 5px;
-    max-width: 280px;
+    max-width: 345px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: #f2f4f4;
     border: 2px solid #808b96; 
-    border-radius: 5px; 
+    border-radius: 10px; 
+}
+
+.imagen-elenco{
+    position: relative;
+}
+
+.contenido-imagen-elenco{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.contenido-imagen-elenco:hover{
+    opacity: 1;
+    border-radius: 5px;
 }
 
 /* TEMPORADAS */
@@ -146,14 +172,17 @@ a{
     background-color: #E0E1DD;
     padding: 5px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #box-temporadas{
+    max-width: 380px;
     padding: 5px;
     margin: 5px;
     display: flex;
     align-items: center;
+    flex-direction: column;
     background-color: #f2f4f4;
     border: 2px solid #808b96; 
     border-radius: 5px; 
@@ -236,3 +265,4 @@ a{
     }
 
 }
+
