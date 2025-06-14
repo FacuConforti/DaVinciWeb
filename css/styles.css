@@ -6,6 +6,16 @@
     font-family: "Comic Sans MS";
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: auto;
+}
+
 p{
     margin: 5px;
     padding: 5px;
