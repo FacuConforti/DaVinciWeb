@@ -294,5 +294,9 @@ a{
     #section-informacion img{
         width: 320px;
     }
+
+    #section-informacion iframe{
+        width: 320px;
+    }
 }
 
