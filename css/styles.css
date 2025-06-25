@@ -291,7 +291,7 @@ a:hover {
 
 /* SITIO WEB EN DESARROLLO */
 
-.contenedor {
+.desarrollo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -300,23 +300,77 @@ a:hover {
     padding: 15px;
 }
 
-.contenedor img {
+.desarrollo img {
     width: 300px;
     height: auto;
     margin-bottom: 20px;
 }
 
-.contenedor a {
+.desarrollo a {
     padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
+    background-color: #808b96;
+    color: #f2f4f4;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
-.contenedor a:hover {
-    background-color: #666;
+.desarrollo a:hover {
+    background-color: #4a5057;
+}
+
+
+/* FORMULARIO */
+
+#section-contacto-informacion{
+    max-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#iconos-informacion{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#section-formulario {
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.success {
+    text-align: center;
+    font-size: 18px;
+    color: green;
+    margin-top: 20px;
 }
 
 /* MEDIA QUERY */

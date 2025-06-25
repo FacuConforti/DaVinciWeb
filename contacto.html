@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="icon" href="./img/Family_Guy_Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -23,25 +24,43 @@
     <main id="main-contacto">
 
       <section id="section-contacto">
-
+                                      
         <div id="section-contacto-informacion">
-              
           <h3>Podes encontrarnos en las siguientes Plataformas</h3>
-          <a href="https://www.disneyplus.com/es-ar">Disney+</a>
-          <a href="https://www.hulu.com/series/family-guy">HULU (EX FoxTV)</a>
-          <a href="https://www.instagram.com/familyguyfox">Instagram</a>
-          <a href="https://www.facebook.com/FamilyGuy/?locale=es_LA">Facebook</a>
-          <a href="https://www.tiktok.com/@foxfamilyguy?is_from_webapp=1&sender_device=pc">Tiktok</a>
-
+          <div id="iconos-informacion">
+            <a href="https://www.disneyplus.com/es-ar"><img src="/img/disneyplus.png" alt="Disney Plus" width="55px" height="55px" class="icono-informacion"></a>
+            <a href="https://www.hulu.com/series/family-guy"><img src="/img/HuluIcon.png" alt="Hulu" width="50px" height="50px" class="icono-informacion"></a>
+            <a href="https://www.instagram.com/familyguyfox"><img src="/img/instagram icon.png" alt="instagram" width="50px" height="50px" class="icono-informacion"></a>
+            <a href="https://www.facebook.com/FamilyGuy/?locale=es_LA"><img src="/img/facebook icon.png" alt="facebook" width="50px" height="50px" class="icono-informacion"></a>
+            <a href="https://www.tiktok.com/@foxfamilyguy?is_from_webapp=1&sender_device=pc"><img src="/img/tiktok icon.webp" alt="tiktok" width="70px" height="70px" class="icono-informacion"></a>
+          </div>
         </div>
 
         <div id="section-formulario">
               
           <h1>FORMULARIO</h1> 
-          <h3>En Desarrollo</h3>
+          
+          <form action="redirigir.html" method="get">
+            <h2>Contacto</h2>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required><br><br>
+
+            <label for="correo">Correo Electronico:</label>
+            <input type="email" id="correo" name="correo" required><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+          </form>
+
         </div>
 
-    </section>
+      </section>
     </main>
     <footer id="footer-general">
 
