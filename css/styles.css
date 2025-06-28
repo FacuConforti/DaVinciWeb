@@ -359,6 +359,10 @@ a:hover {
     border-radius: 5px; 
 }
 
+.boton-contacto{
+    width: 96%;
+}
+
 /* SITIO WEB EN DESARROLLO */
 
 .desarrollo {
