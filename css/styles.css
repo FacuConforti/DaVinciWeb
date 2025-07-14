@@ -102,7 +102,7 @@ a:hover {
 
 .galery{
     display: flex;
-    width: 99vw;
+    width: 98vw;
     height: 500px;
     padding: 10px;
 }
@@ -490,6 +490,11 @@ button {
     #main-contacto{
         flex-direction: column;
     }
+
+    .galery{
+        width: 95vw;
+    }
+
 }
 
 @media (min-width: 601px) and (max-width: 1024px){
@@ -516,4 +521,9 @@ button {
     #main-contacto{
         flex-direction: column;
     }
+
+    .galery{
+        width: 95vw;
+    }
+
 }
